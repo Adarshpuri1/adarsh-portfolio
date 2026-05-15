@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 5000
 app.use(helmet())
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://adarshpuri.dev', 'https://your-deployed-frontend.vercel.app'] 
-    : ['http://localhost:5173', 'http://localhost:3000'],
+    ? ['https://adarsh-portfolio-d1wu.onrender.com', 'https://adarsh-portfolio-d1wu.onrender.com'] 
+    : ['https://adarsh-portfolio-d1wu.onrender.com', 'https://adarsh-portfolio-d1wu.onrender.com'],
   methods: ['GET', 'POST'],
 }))
 app.use(express.json({ limit: '10kb' }))
