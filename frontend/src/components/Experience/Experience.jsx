@@ -31,6 +31,9 @@ const experiences = [
 ];
 
 const certs = [
+  { title: "Cloud Computing", org: "nptel swayam", date: "Apr 2026", color: "#6366f1", link: "/fullstack.png" },
+  { title: "DBMS", org: "Oracle", date: "May 2026", color: "#6366f1", link: "/fullstack.png" },
+  { title: "AI Foundations Associate", org: "Oracle", date: "May 2026", color: "#6366f1", link: "/fullstack.png" },
   { title: "Full Stack in React and Node", org: "Centre for Professional Enhancement", date: "Jul 2025", color: "#6366f1", link: "/fullstack.png" },
   { title: "Python Programming", org: "CSE Pathsala", date: "Mar 2025", color: "#3776AB", link: "/pythonprogramming.jpg" },
   { title: "Python for Data Science", org: "Board Infinity", date: "Jan 2024", color: "#8b5cf6", link: "/pythondatascience.png" },
