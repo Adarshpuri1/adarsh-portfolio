@@ -38,8 +38,8 @@ const featured = [
       'Secure authentication system using JWT'
     ],
 
-    github: '#', // replace with repo if available
-    live: '#', // add deployment link if deployed
+    github: 'https://github.com/Adarshpuri1/MultiAgent.1', // replace with repo if available
+    live: 'https://multiagent-1-frontend.onrender.com/', // add deployment link if deployed
     accent: '#8b5cf6',
     date: 'May 2026'
   },
