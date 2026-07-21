@@ -3,12 +3,17 @@ import { motion, useInView } from 'framer-motion'
 
 const skills = [
   { name: 'React.js', level: 90 },
-  { name: 'Node.js + Express', level: 85 },
-  { name: 'MongoDB', level: 82 },
   { name: 'JavaScript (ES6+)', level: 92 },
+  { name: 'Node.js + Express', level: 90 },
+  { name: 'MongoDB', level: 92 },
   { name: 'Tailwind CSS', level: 95 },
+  { name: 'AI / GenAI', level: 82 },
+  { name: 'LangChain', level: 75 },
+  { name: 'LangGraph', level: 75 },
+  { name: 'RAG & Vector Databases', level: 72 },
+  { name: 'AI Agents', level: 75 },
+  { name: 'C++ & DSA', level: 90 },
   { name: 'Python', level: 70 },
-  { name: 'AI Integration', level: 78 },
   { name: 'Git & GitHub', level: 88 },
 ]
 
