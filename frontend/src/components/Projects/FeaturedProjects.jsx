@@ -5,6 +5,51 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi'
 const featured = [
   {
     number: '01',
+    title: 'InvestAndGrow',
+    subtitle: 'Invest And Grow With AI',
+    description:
+      'InvestAndGrow is an AI-powered investment research and analysis platform that helps users make informed investment decisions about publicly traded companies.** The system allows users to search for a company or stock and automatically analyzes financial fundamentals, historical market data, and recent news using an AI-driven research pipeline. It combines multiple financial data sources with AI models to evaluate company performance and generate an investment recommendation such as **INVEST, HOLD, or PASS**, along with a confidence score and supporting insights. The platform provides an interactive dashboard where users can explore financial information, market trends, forecasts, and investment analysis, making complex financial research more accessible, transparent, and efficient.',
+
+    problem:
+      'Making informed investment decisions requires analyzing multiple factors such as company fundamentals, historical market performance, financial data, and recent news. Manually collecting and analyzing this information from different sources can be time-consuming and complex for investors. Investors often need to evaluate large amounts of financial data before deciding whether to invest in, hold, or pass on a particular stock. Therefore, there is a need for an AI-powered platform that can automate investment research, analyze relevant financial information, and provide clear, data-driven investment insights.',
+
+    solution:
+      'InvestAndGrow uses an AI-powered investment research system to automatically collect financial data, analyze company fundamentals, evaluate market trends and news, and generate intelligent investment recommendations. The platform combines multiple data sources and AI-driven analysis to provide users with clear INVEST, HOLD, or PASS decisions, helping simplify complex investment research and make the decision-making process faster and more efficient.',
+
+    tech: [
+      'React (Vite)',
+      'Tailwind CSS',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'JWT Authentication',
+      'bcrypt',
+      'Grok API / LLM API',
+      'LangGraph',
+      'LangChain'
+    ],
+
+    features: [
+      ' AI-powered investment research and analysis',
+      'Automated collection of company financial and market data',
+      'Analysis of company fundamentals and historical performance',
+      'Real-time news and market sentiment analysis',
+      'AI-generated INVEST, HOLD, or PASS recommendations',
+     'Confidence scores and data-driven investment insights',
+     'Interactive financial charts and market trend visualization',
+      ' AI-powered forecasting and investment analysis',
+      'Company search and investment research dashboard',
+     ' Secure user authentication using JWT'
+
+    ],
+
+    github: 'https://github.com/Adarshpuri1/InvestandGrow', // replace with repo if available
+    live: 'https://investandgrow.onrender.com/', // add deployment link if deployed
+    accent: '#8b5cf6',
+    date: 'june 2026'
+  }.
+  {
+    number: '02',
     title: 'DevSwarm',
     subtitle: 'Multi-Agent AI Developer Team',
     description:
@@ -44,7 +89,7 @@ const featured = [
     date: 'May 2026'
   },
   {
-    number: '02',
+    number: '03',
     title: 'Archmind',
     subtitle: 'visualizations dependency graphs',
     description:
@@ -59,7 +104,7 @@ const featured = [
     date: 'Apr 2025',
   },
   {
-    number: '03',
+    number: '04',
     title: 'DoraAI',
     subtitle: 'Claude-like AI Web Application',
     description:
@@ -74,7 +119,7 @@ const featured = [
     date: 'Mar 2026',
   },
   {
-    number: '04',
+    number: '05',
     title: 'Shopping-Ekart',
     subtitle: 'Full-Stack E-Commerce Platform',
     description:
