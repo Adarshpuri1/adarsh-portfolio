@@ -21,7 +21,6 @@ const stats = [
   { value: '200+', label: 'LeetCode Problems' },
   { value: '2+', label: 'Years Coding' },
   { value: '5+', label: 'Projects Built' },
-  { value: '6.29', label: 'CGPA at LPU' },
 ]
 
 function SkillBar({ name, level, inView }) {
