@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex gap-4">
           {[
             { icon: <FiGithub />, href: 'https://github.com/Adarshpuri1' },
-            { icon: <FiLinkedin />, href: 'https://linkedin.com/in/adarsh-puri' },
+            { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/adarsh-puri-/' },
             { icon: <FiMail />, href: 'mailto:adarshpuri2004@gmail.com' },
           ].map((item, i) => (
             <a
