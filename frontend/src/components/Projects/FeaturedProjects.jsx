@@ -47,7 +47,7 @@ const featured = [
     live: 'https://investandgrow.onrender.com/', // add deployment link if deployed
     accent: '#8b5cf6',
     date: 'june 2026'
-  }.
+  },
   {
     number: '02',
     title: 'DevSwarm',
