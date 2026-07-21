@@ -7,7 +7,7 @@ import toast from 'react-hot-toast'
 const contactLinks = [
   { icon: <FiMail />, label: 'adarshpuri2004@gmail.com', href: 'mailto:adarshpuri2004@gmail.com', color: '#6366f1' },
   { icon: <FiGithub />, label: 'github.com/Adarshpuri1', href: 'https://github.com/Adarshpuri1', color: '#8b5cf6' },
-  { icon: <FiLinkedin />, label: 'linkedin.com/in/adarsh-puri', href: 'https://www.linkedin.com/in/adarsh-puri-/', color: '#06b6d4' },
+  { icon: <FiLinkedin />, label: 'https://www.linkedin.com/in/adarsh-puri-/', href: 'https://www.linkedin.com/in/adarsh-puri-/', color: '#06b6d4' },
   { icon: <FiPhone />, label: '+91 7856029189', href: 'tel:+917856029189', color: '#10b981' },
 ]
 
