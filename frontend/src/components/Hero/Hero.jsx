@@ -125,7 +125,7 @@ export default function Hero() {
         >
           {[
             { icon: <FiGithub size={20} />, href: 'https://github.com/Adarshpuri1', label: 'GitHub' },
-            { icon: <FiLinkedin size={20} />, href: 'https://linkedin.com/in/adarsh-puri', label: 'LinkedIn' },
+            { icon: <FiLinkedin size={20} />, href: 'https://www.linkedin.com/in/adarsh-puri-/', label: 'LinkedIn' },
           ].map(item => (
             <a
               key={item.label}
